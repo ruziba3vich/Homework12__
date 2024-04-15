@@ -4,7 +4,7 @@ import (
 	"fmt"
 	m "homework14/models"
 
-	validation "github.com/ruziba3vich/hmwnmb14lst"
+	validation "github.com/ruziba3vich/hmwnmb14lst/Validation"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 		var user m.User
 		fmt.Print("username kiriting : ")
 		fmt.Scan(&user.Username)
-		fmt.Print("password kiriting : ")
+		fmt.Print("email kiriting : ")
 		fmt.Scan(&user.Email)
 		fmt.Print("age kiriting : ")
 		fmt.Scan(&user.Age)
