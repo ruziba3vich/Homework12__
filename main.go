@@ -38,3 +38,4 @@ func ValidateUser(user m.User) bool {
 
 	return usernameError == nil && passwordError == nil && ageError == nil
 }
+
