@@ -5,4 +5,3 @@ type User struct {
 	Email    string
 	Age      int16
 }
-
